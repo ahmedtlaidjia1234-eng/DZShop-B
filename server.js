@@ -26,8 +26,9 @@ app.use(securityHeaders);
 
 // CORS Configuration
 const allowedOrigins = [
-  process.env.CORS_ORIGIN || 'https://dzshop-self.vercel.app',
- 'http://dzshop-self.vercel.app'
+ 'https://dzshop-self.vercel.app',
+ 'http://dzshop-self.vercel.app',
+ 'dzshop-self.vercel.app'
 ];
 
 app.use(
