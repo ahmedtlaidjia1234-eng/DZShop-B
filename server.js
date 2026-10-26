@@ -26,9 +26,8 @@ app.use(securityHeaders);
 
 // CORS Configuration
 const allowedOrigins = [
-  process.env.CORS_ORIGIN || 'http://localhost:5173',
-  'http://localhost:5173',
-  'http://127.0.0.1:5173',
+  process.env.CORS_ORIGIN || 'https://dzshop-self.vercel.app',
+ 'http://dzshop-self.vercel.app'
 ];
 
 app.use(
